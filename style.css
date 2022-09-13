@@ -42,6 +42,7 @@ body {
     font-size: 20px;
 }
 
+/* iPhone 14 pro and 14 */
 /* Main content */
 .main-content {
     text-align: center;
@@ -49,20 +50,20 @@ body {
     padding-top: 10px;
 }
 
-.iphone-14-text {
+.headline {
     font-size: 50px;
     color: white;
     margin-bottom: 0;
 }
 
-.sub-text {
+.subhead {
     font-size: 25px;
     font-weight: 300;
     color: white;
     margin-top: 0;
 }
 
-.available-text {
+.avail {
     color: gray;
     font-size: 20px;
     font-weight: 300;
@@ -81,4 +82,41 @@ body {
 
 .main-links:hover {
     text-decoration: underline;
+}
+
+.white-bg {
+    background-color: #fff;
+}
+
+.headline-black {
+    font-size: 50px;
+    color: black;
+    margin-bottom: 0;
+}
+
+.subhead-black {
+    font-size: 25px;
+    font-weight: 300;
+    color: black;
+    margin-top: 0;
+}
+
+/* watches */
+.col1 {
+    float: left;
+    padding: 50px;
+}
+
+.col2 {
+    float: right;
+    background-color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 30px 80px 0 80px;
+}
+
+.col-image {
+    width: 700px;
+    height: 500px;
 }
